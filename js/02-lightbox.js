@@ -26,7 +26,7 @@ const cards = galleryItems.map(makeCard)
 
 refs.galleryEl.append(...cards)
 
-var lightbox = new SimpleLightbox('.gallery a', {
+const lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
     captionDelay: 250,
 });
